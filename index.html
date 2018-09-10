@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CABECERA</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="css/cabecera.css"/>
+    <script src="https://use.fontawesome.com/ccb65bde17.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  </head>
+  <body class="body">
+    <section id="portada" class="portada"> <!-- portada -->
+      <header id="header" class="header-contenedor">
+        <figure class="figure"><!-- logotipo -->
+          <a href="index.html">
+          <img class="logotipe-invie" src="imagenes/invie.png" width="150" height="60" alt="invie logotipo"/>
+          </a>
+        </figure>
+        <nav class="menu"> <!-- menu -->
+          <ul>
+            <li>
+              <a href="index.html">INICIO</a>
+            </li>
+                  <li>
+                    <a href="quehacemos.html">QUE HACEMOS</a>
+                  </li>
+            <li>
+              <a href="noticias.html">NOTICIAS</a>
+            </li>
+
+            <li>
+              <a href="anunciantes.html">ANUNCIANTES</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+    <!---CONTENEDOR SLIDER--->
+    <div id="contenedor-slider" class="contenedor-slider">
+      <div id="slider" class="slider">
+        <section class="slider__section"><img src="Imagenes/imagenslider1.jpg" class="slider__img"></section>
+        <section class="slider__section"><img src="Imagenes/imagenslider2.jpg" class="slider__img"></section>
+        <section class="slider__section"><img src="Imagenes/imagenslider3.jpg" class="slider__img"></section>
+        <section class="slider__section"><img src="Imagenes/imagenslider4.jpg" class="slider__img"></section>
+      </div>
+      <div id="btn-prev" class="btn-prev">&#60;</div>
+      <div id="btn-next" class="btn-next">&#62;</div>
+      <script src="slider.js"></script>
+    </div>
+    <!---LO MAS DESTACADO--->
+    <section class="contenedor-noticias">
+      <h1 class="titulo">LO MAS DESTACADO</h1>
+      <article class="articulo1">
+        <img class="noticias-invie" src="imagenes/invie.png" width="150" height="60" alt="invie logotipo"/>
+        <a href="noticias.html">
+        <img class="imagen-noticia" src="imagenes/imagennoticia2.jpg" alt="imagen noticias" />
+        </a>
+        <div class="contenido-noticia">
+          <h2 class="subtitulo-noticia1">RUSIA BOMBARDEÓ LA PROVINCIA DE SIRIA DE IDLIB, EL ULTIMO BASTION DE LOS REVELDES</h2>
+          <p class="texto-noticia1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.  </p>
+        </div>
+      </article>
+      <article class="articulo2">
+        <div class="contenido-noticia2">
+          <h2 class="subtitulo-noticia2">TRAMP CANCELA LOS FONDOS PARA LOS REFUGIADOS EN SU ESTRATEGIA DE PRESION A LOS PALESTINOS</h2>
+          <p class="texto-noticia2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut</p>
+        </div>
+      </article>
+      <article class="articulo3">
+       <div class="contenido-noticia3">
+        <a href="noticias.html">
+        <img class="imagen-noticia3" src="imagenes/imagennoticia3.jpg" alt="imagen noticias 2"/>
+        </a>
+        <h2 class="subtitulo-noticia3">EL GOBIERNO ASUMIRIRÀ 1.000 REFUGIADOS EN JORDANIA</h2>
+        <p class="texto-noticia3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut</p>
+       </div>
+      </article>
+      <nav class="redes-sociales">
+       <h3 class="titulo-redes-sociales">UNETE A NOSOTROS</h3>
+       <ul>
+        <li>
+          <a href="https://twitter.com/?logged_out=1&lang=es">
+            <img src="imagenes/twitter.png" class="imgtwitter">
+          </a>
+        </li>
+        <li>
+          <a href="https://es-es.facebook.com/">
+            <img src="imagenes/facebook.png" class="imgfacebook">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/accounts/login/">
+            <img src="imagenes/instagram.png" class="imginstagram">
+          </a>
+        </li>
+       </ul>
+      </nav>
+     </article>
+    </section>
+   <P class="titulo-mapa">OBTENEN LA INFORMACION PARA REFUGIADOS DE TODOS LOS PAISES DE EUROPA</P>
+   <div id="simpleModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="closeBtn">&times;</span>
+        <h2>FRANCIA</h2>
+      </div>
+      <div class="modal-body">
+        <p>Hello... I am a modal</p>
+        <p class="p">
+          ¿De dónde viene?
+          Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua del latín, "consecteur", en un pasaje de Lorem Ipsum, y al seguir leyendo distintos textos del latín, descubrió la fuente indudable. Lorem Ipsum viene de las secciones 1.10.32 y 1.10.33 de "de Finnibus Bonorum et Malorum" (Los Extremos del Bien y El Mal) por Cicero, escrito en el año 45 antes de Cristo. Este libro es un tratado de teoría de éticas, muy popular durante el Renacimiento. La primera linea del Lorem Ipsum, "Lorem ipsum dolor sit amet..", viene de una linea en la sección 1.10.32
+
+          El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos interesados. Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicero son también reproducidas en su forma original exacta, acompañadas por versiones en Inglés de la traducción realizada en 1914 por H. Rackham.
+          ¿De dónde viene?
+          Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua del latín, "consecteur", en un pasaje de Lorem Ipsum, y al seguir leyendo distintos textos del latín, descubrió la fuente indudable. Lorem Ipsum viene de las secciones 1.10.32 y 1.10.33 de "de Finnibus Bonorum et Malorum" (Los Extremos del Bien y El Mal) por Cicero, escrito en el año 45 antes de Cristo. Este libro es un tratado de teoría de éticas, muy popular durante el Renacimiento. La primera linea del Lorem Ipsum, "Lorem ipsum dolor sit amet..", viene de una linea en la sección 1.10.32
+
+          El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos interesados. Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicero son también reproducidas en su forma original exacta, acompañadas por versiones en Inglés de la traducción realizada en 1914 por H. Rackham.
+          ¿De dónde viene?
+          Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua del latín, "consecteur", en un pasaje de Lorem Ipsum, y al seguir leyendo distintos textos del latín, descubrió la fuente indudable. Lorem Ipsum viene de las secciones 1.10.32 y 1.10.33 de "de Finnibus Bonorum et Malorum" (Los Extremos del Bien y El Mal) por Cicero, escrito en el año 45 antes de Cristo. Este libro es un tratado de teoría de éticas, muy popular durante el Renacimiento. La primera linea del Lorem Ipsum, "Lorem ipsum dolor sit amet..", viene de una linea en la sección 1.10.32
+
+          El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos interesados. Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicero son también reproducidas en su forma original exacta, acompañadas por versiones en Inglés de la traducción realizada en 1914 por H. Rackham. ipsum, dssssssssssssssssssssssssssssssssssssssssssssss. ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaolor sit amet consectetur adipisicing elitsadasdasdasdasdasd. Quia commodi mollitia, saepe hic omnis ab assumenda dolorum sunt alias facilis similique eos quo. Consequatur soluta dolore a dolores totam. Est.
+        </p>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+   <section class="container-fondo">
+   <section class="container-map">
+    <style type="text/css">
+    .container {
+        margin: auto;
+        width:100%;
+    }
+    .mapael .map {
+        background-color: #cddee0;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    /* For all zoom buttons */
+    .mapael .zoomButton {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        color: #000;
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        text-align: center;
+        border-radius: 3px;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        font-weight: bold;
+        left: 10px;
+        -webkit-user-select: none;
+        -khtml-user-select : none;
+        -moz-user-select: none;
+        -o-user-select : none;
+        user-select: none;
+    }
+    /* Reset Zoom button first */
+    .mapael .zoomReset {
+        top: 10px;
+    }
+    /* Then Zoom In button */
+    .mapael .zoomIn {
+        top: 30px;
+    }
+    /* Then Zoom Out button */
+    .mapael .zoomOut {
+        top: 50px;
+    }
+    .mapael .mapTooltip {
+        position: absolute;
+        background-color: #474c4b;
+        moz-opacity: 0.70;
+        opacity: 0.70;
+        filter: alpha(opacity=70);
+        border-radius: 10px;
+        padding: 10px;
+        z-index: 1000;
+        max-width: 200px;
+        display: none;
+        color: #fff;
+    }
+    </style>
+
+    <div class="mapcontainer">
+        <div class="map">
+            <span>Alternative content for the map</span>
+        </div>
+        <div class="areaLegend"></div>
+        <div class="plotLegend"></div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js" charset="utf-8">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.1.0/js/jquery.mapael.min.js" charset="utf-8">
+    </script>
+    <script type="text/javascript" src="https://rawgit.com/neveldo/mapael-maps/master/european_union/european_union.js" charset="utf-8">
+    </script>
+    <script type="text/javascript">
+    $(".mapcontainer").mapael(
+    {
+      "map": {
+          "name" : "european_union",
+          "zoom": {
+              "enabled": true,
+              "maxLevel": 10
+          }
+      }
+    }
+    );
+    </script>
+    <script type="text/javascript">
+      const azerbaiyan = document.getElementsByTagName('path')[0];
+      azerbaiyan.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const siria = document.getElementsByTagName('path')[1];
+      siria.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const tunez = document.getElementsByTagName('path')[2];
+      tunez.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const kazajistan = document.getElementsByTagName('path')[3];
+      kazajistan.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const irak = document.getElementsByTagName('path')[4];
+      irak.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const iran = document.getElementsByTagName('path')[5];
+      iran.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const rusia = document.getElementsByTagName('path')[6];
+      rusia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const argelia = document.getElementsByTagName('path')[7];
+      argelia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const marruecos = document.getElementsByTagName('path')[8];
+      marruecos.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const bielorrusia = document.getElementsByTagName('path')[10];
+      bielorrusia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const suiza = document.getElementsByTagName('path')[11];
+      suiza.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const macedonia = document.getElementsByTagName('path')[12];
+      macedonia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const ucrania = document.getElementsByTagName('path')[13];
+      ucrania.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const italia = document.getElementsByTagName('path')[14];
+      italia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const austria = document.getElementsByTagName('path')[15];
+      austria.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const suecia = document.getElementsByTagName('path')[16];
+      suecia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const turquia = document.getElementsByTagName('path')[17];
+      turquia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const portugal = document.getElementsByTagName('path')[18];
+      portugal.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const alemania = document.getElementsByTagName('path')[19];
+      alemania.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const croacia = document.getElementsByTagName('path')[20];
+      croacia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const dinamarca = document.getElementsByTagName('path')[21];
+      dinamarca.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const letonia = document.getElementsByTagName('path')[22];
+      letonia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const rumania = document.getElementsByTagName('path')[23];
+      rumania.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const chequia = document.getElementsByTagName('path')[24];
+      chequia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const albania = document.getElementsByTagName('path')[25];
+      albania.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const finlandia = document.getElementsByTagName('path')[26];
+      finlandia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const inglaterra = document.getElementsByTagName('path')[27];
+      inglaterra.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const irlanda = document.getElementsByTagName('path')[28];
+      irlanda.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const polonia = document.getElementsByTagName('path')[29];
+      polonia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const georgia = document.getElementsByTagName('path')[30];
+      georgia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const bosnia = document.getElementsByTagName('path')[31];
+      bosnia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const belgica = document.getElementsByTagName('path')[32];
+      belgica.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const bulgaria = document.getElementsByTagName('path')[33];
+      bulgaria.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const serbia = document.getElementsByTagName('path')[34];
+      serbia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const kosovo = document.getElementsByTagName('path')[35];
+      kosovo.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const montenegro = document.getElementsByTagName('path')[36];
+      montenegro.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const estonia = document.getElementsByTagName('path')[37];
+      estonia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const armenia = document.getElementsByTagName('path')[38];
+      armenia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const españa = document.getElementsByTagName('path')[39];
+      españa.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const hungria = document.getElementsByTagName('path')[40];
+      hungria.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const islandia = document.getElementsByTagName('path')[41];
+      islandia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const paisesbajos = document.getElementsByTagName('path')[42];
+      paisesbajos.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const eslovaquia = document.getElementsByTagName('path')[43];
+      eslovaquia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const lituania = document.getElementsByTagName('path')[44];
+      lituania.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const grecia = document.getElementsByTagName('path')[45];
+      grecia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const eslovenia = document.getElementsByTagName('path')[46];
+      eslovenia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const noruega = document.getElementsByTagName('path')[47];
+      noruega.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const moldavia = document.getElementsByTagName('path')[48];
+      moldavia.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const libano = document.getElementsByTagName('path')[49];
+      libano.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const chipre = document.getElementsByTagName('path')[50];
+      chipre.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+      const luxemburgo = document.getElementsByTagName('path')[51];
+      luxemburgo.addEventListener("click", frClick);
+      function frClick()
+      {
+        alert("ok");
+      }
+    </script>
+    <script type="text/javascript">
+
+      // Get modal element
+      var modal = document.getElementById('simpleModal');
+
+      // Get open modal button
+      const francia = document.getElementsByTagName('path')[9];
+
+      //Get close button
+      var closeBtn = document.getElementsByClassName('closeBtn')[0];
+
+      // Listen for open click
+      francia.addEventListener('click', openModal);
+
+      // Listen for close click
+      closeBtn.addEventListener('click', closeModal);
+
+      // Listen for outside click
+      window.addEventListener('click', clickOutside)
+
+      // Function to open modal
+      function openModal() {
+        modal.style.display = 'block';
+      }
+
+      // Function to close modal
+      function closeModal() {
+        modal.style.display = 'none';
+      }
+
+      // Function to close modal if outside click
+      function clickOutside(e) {
+        if (e.target == modal) {
+          modal.style.display = 'none';
+        }
+      }
+    </script>
+  </section>
+   </section>
+   <footer>
+    <div class="footerap">
+      <figure class="logotipe">
+        <img class="" src="imagenes/invie-white.png" alt="logotipe">
+      </figure>
+      <div class="footermenu">
+        <nav>
+          <a href="index.html">Inicio</a>
+          <a href="quehacemos.html">Que hacemos</a>
+          <a href="noticias.html">Noticias</a>
+          <a href="anunciantes.html">Anunciantes</a>
+        </nav>
+      </div>
+      <div class="socialmedia">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/ONG-Rescate-121977847837374/?ref=hl" style="color: #FFF"><i class="fa fa-facebook"></i> Facebook</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/ongrescate" style="color: #FFF"><i class="fa fa-twitter"></i> Twitter</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/user/ongrescate" style="color: #FFF"><i class="fa fa-youtube"></i> Youtube</a>
+          </li>
+          <li>
+            <a href="https://plus.google.com/+OngrescateOrgInt" style="color: #FFF"><i class="fa fa-google-plus"></i> Google</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerbot">
+        <a href="" class="politica">Politicas de Privacidad</a>
+        <a href="tel:+573024456678" class="info"><strong>Telefono </strong><span>3024456678</span></a>
+        <a href="mailto:contacto@ong.com" class="info"><strong>E-mail</strong> <span>contacto@ong.com</span></a>
+      </nav>
+    </div>
+  </footer>
+  </body>
+</html>
